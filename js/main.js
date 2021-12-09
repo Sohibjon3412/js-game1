@@ -15,7 +15,6 @@ function play(e) {
   const winner = getWinner(playerChoice, computerChoice);
   showWinner(winner, computerChoice);
 }
-
 function getComputerChoice() {
   const rand = Math.random()*3;
   if (rand < 1) {
@@ -25,10 +24,7 @@ function getComputerChoice() {
   } else {
     return 'scissors';
   }
-  
 }
-
-// Get game winner
 function getWinner(p, c) {
   if (p === c) {
     return 'draw';

@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: #fff;
+  background: #1F3757;
   color: #333;
 }
 
@@ -22,48 +22,37 @@ body {
   display: none;
   background: #f4f4f4;
   color: #333;
-  padding: 0.4rem 1.3rem;
-  font-size: 1rem;
+  padding: 6px 20px;
+  font-size: 16px;
   cursor: pointer;
   outline: none;
   border: none;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 .restart-btn:hover {
-  background: #003699;
-  color: #fff;
+  background: #d1d0d0;
 }
 
 .header {
   text-align: center;
-  margin: 1rem 0;
+  margin: 16px 0;
 }
-
 .header h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
+  color: #fff;
 }
-
 .score {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  font-size: 1.2rem;
+  font-size: 19px;
   color: #fff;
 }
-
-.score p:first-child {
-  background: #003699;
-}
-
-.score p:last-child {
-  background: #333;
-}
-
 .choices {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  margin-top: 3rem;
+  grid-gap: 32px;
+  margin-top: 48px;
   text-align: center;
 }
 
@@ -78,7 +67,9 @@ body {
 .text-lose {
   color: #dc3545;
 }
-
+.tanlang {
+  color:#fff !important;
+}
 .modal {
   display: none;
   position: fixed;
